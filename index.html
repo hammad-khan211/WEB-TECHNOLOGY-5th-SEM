@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table Example</title>
+  <style>
+    table {
+      margin: 50px auto;
+      border-collapse: collapse;
+      width: 40%;
+      text-align: center;
+      border: 2px solid black;
+    }
+    td, th {
+      border: 1px solid black;
+      padding: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+  <table>
+
+    <tr>
+      <td colspan="4"><b>Description</b></td>
+    </tr>
+
+
+    <tr>
+      <td rowspan="3" colspan="2"><b>Items</b></td>
+      <td colspan="2">Milk</td>
+    </tr>
+    <tr>
+      <td colspan="2">Bread</td>
+    </tr>
+    <tr>
+      <td colspan="2">Butter</td>
+    </tr>
+
+
+    <tr>
+      <td rowspan="3" colspan="2"><b>Price</b></td>
+      <td colspan="2">20</td>
+    </tr>
+    <tr>
+      <td colspan="2">30</td>
+    </tr>
+    <tr>
+      <td colspan="2">4</td>
+    </tr>
+
+
+    <tr>
+      <td><p><b>Images</b></p></td>
+      <td><img src="/FSD_5th_SEM_Hammad/cartoon.png" alt="Image2" width="50" height="50"></td>
+      <td><img src="/FSD_5th_SEM_Hammad/cartoon.png" alt="Image3" width="50" height="50"></td>
+      <td><img src="/FSD_5th_SEM_Hammad/cartoon.png" alt="Image4" width="50" height="50"></td>
+    </tr>
+
+   
+    <tr>
+      <td ><button class="add">Add</button></td>
+      <td colspan="2"><button class="update">Update</button></td>
+      <td><button class="remove">Remove</button></td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Inquiry Form</title>
+</head>
+<body >
+<center>
+  <h2 style="font-size: 3rem;">College Inquiry Form</h2>
+  <form action="/submit-inquiry" method="post" style="border: 3px solid black;">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone"><br><br>
+    <label for="program">Program of Interest:</label><br>
+    <select id="program" name="program">
+      <option value="btech">B.Tech</option>
+      <option value="mtech">M.Tech</option>
+      <option value="mba">MBA</option>
+      <option value="other">Other</option>
+    </select><br><br>
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    <input type="submit" value="Submit Inquiry">
+  </form>
+</center>
+</body>
+</html>
